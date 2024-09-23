@@ -93,10 +93,10 @@
         Fun {
             label = "Fun";
             bindings = <
-        &trans  &trans  &trans  &ind_bat  &ind_con    &ind_bat  &ind_con  &trans  &trans  &kp F1
-        &trans  &trans  &trans  &trans    &trans      &trans    &trans    &trans  &trans  &kp F10
-&trans  &trans  &trans  &trans  &trans    &trans      &trans    &trans    &trans  &trans  &kp F20  &trans
-                        &trans  &trans    &trans      &trans    &trans    &trans
+        &trans  &trans  &trans  &ind_bat  &ind_con    &kp CAPS  &trans  &trans  &trans  &kp F1
+        &trans  &trans  &trans  &trans    &trans      &trans    &trans  &trans  &trans  &kp F10
+&trans  &trans  &trans  &trans  &trans    &trans      &trans    &trans  &trans  &trans  &kp F20  &trans
+                        &trans  &trans    &trans      &trans    &trans  &trans
             >;
         };
 
