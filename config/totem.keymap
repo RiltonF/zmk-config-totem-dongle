@@ -94,8 +94,8 @@
             label = "Fun";
             bindings = <
         &trans  &trans  &trans  &ind_bat  &ind_con    &kp CAPS  &trans  &trans  &trans  &kp F1
-        &trans  &trans  &trans  &trans    &trans      &trans    &trans  &trans  &trans  &kp F10
-&trans  &trans  &trans  &trans  &trans    &trans      &trans    &trans  &trans  &trans  &kp F20  &trans
+        &trans  &trans  &trans  &trans    &to 6       &trans    &trans  &trans  &trans  &kp F10
+&trans  &trans  &trans  &trans  &trans    &tog 6      &trans    &trans  &trans  &trans  &kp F20  &trans
                         &trans  &trans    &trans      &trans    &trans  &trans
             >;
         };
@@ -116,6 +116,15 @@
         &trans  &trans  &trans  &trans  &trans    &kp F11  &kp F12  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans   &trans   &trans  &trans  &trans   &trans
                         &trans  &trans  &trans    &trans   &trans   &trans
+            >;
+        };
+
+        Gaming {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &kp A   &kp S   &kp D   &kp F   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
