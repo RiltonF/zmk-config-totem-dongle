@@ -36,8 +36,8 @@
 };
 
 &lt {
-    tapping-term-ms = <240>;
-    flavor = "tap-unless-interrupted";
+    tapping-term-ms = <200>;
+    flavor = "balanced";
     quick-tap-ms = <200>;
 };
 
