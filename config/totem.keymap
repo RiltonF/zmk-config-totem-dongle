@@ -84,10 +84,10 @@
         Num {
             label = "Nav";
             bindings = <
-        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0
-        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &kp LSHFT     &kp INSERT      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &kp RIGHT_GUI
-&trans  &trans        &mkp RCLK     &mkp LCLK     &none         &none           &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP      &kp END          &none          &trans
-                                    &trans        &trans        &trans          &trans          &trans          &kp RIGHT_SHIFT
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0
+        &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL     &hm LSHFT DELETE  &kp INSERT      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &kp RIGHT_GUI
+&trans  &trans        &mkp RCLK     &mkp LCLK     &none             &none           &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP      &kp END          &none          &trans
+                                    &trans        &trans            &trans          &trans          &trans          &kp RIGHT_SHIFT
             >;
         };
 
